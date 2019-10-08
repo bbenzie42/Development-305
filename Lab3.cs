@@ -26,7 +26,7 @@ namespace Lab3
             return priceList;
         }
 
-        static void Main(string[] args)
+        static void oldmain(string[] args)
         {
             List<double> priceList = getList();
             Console.WriteLine("Your entered values: ");
